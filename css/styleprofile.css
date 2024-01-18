@@ -1,0 +1,172 @@
+/* Reset styles */
+* {
+  
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clr{
+  clear: both;
+}
+
+/* Global styles */
+body {
+
+  background-image: url(../Images/home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
+}
+
+header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: none;
+  color: white;
+  padding: 20px;
+  height: 100px;
+}
+
+header h1{
+
+  float: left;
+  margin-right: 50px;
+}
+
+nav ul {
+  margin-top: 15px;
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover{
+  font-size: 20px;
+  color:coral;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: none;
+}
+main {
+  padding: 20px;
+  padding-left: 100px;
+  padding-right:100px;
+}
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+section {
+  margin-bottom: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.progress-photos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.progress-photos img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+#main-header{
+  color: black;
+  background-color: rgb(255, 0, 0);
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px;  
+}
+
+a:hover{
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: rgb(255, 0, 0);
+}
+
+#navbar{
+  float:right;
+  background-color: black;
+  color: white;
+  width: 8%;
+  box-sizing: border-box;
+  padding : 5px;
+}
+
+#navbar2{
+  float:left;
+  background-color: black;
+  color: white;
+  width: 92%;
+  box-sizing: border-box;
+  padding : 5px;
+}
+
+
+
+ul{
+  
+  margin-left: 10%;
+  padding:0px;
+  list-style: none;
+}
+li{
+  border-width: 20px;
+  border-color: black;
+  display: inline;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+
+.maintext{
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-size: larger;
+  box-sizing: border-box;
+  padding: 10px;
+}
+

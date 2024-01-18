@@ -1,0 +1,99 @@
+body {
+
+  
+    background-repeat: no-repeat;
+    background-color: #333;
+    background-size: cover;
+
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    
+    color: white;
+  }
+
+  .form-group {
+    margin: 10px;
+  }
+
+  
+  header {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: none;
+    color: white;
+    padding: 10px;
+    height: 100px;
+    transition: background-color 1s;
+  }
+
+  header h1{
+
+    float: left;
+    margin-right: 50px;
+  }
+  
+  a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px;  
+}
+
+a:hover{
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0);
+}
+
+#navbar{
+    float:right;
+    background-color: black;
+    color: white;
+    width: 8%;
+    box-sizing: border-box;
+    padding : 5px;
+}
+
+#navbar2{
+    float:left;
+    background-color: black;
+    color: white;
+    width: 92%;
+    box-sizing: border-box;
+    padding : 5px;
+}
+
+
+
+ul{
+    
+    margin-left: 10%;
+    padding:0px;
+    list-style: none;
+}
+li{
+    border-width: 20px;
+    border-color: black;
+    display: inline;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+  main {
+    padding: 20px;
+    padding-left: 100px;
+    padding-right:100px;
+  }
+  h1, h2 {
+    margin-bottom: 10px;
+  }
+  
+  section {
+
+
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  

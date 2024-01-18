@@ -1,0 +1,19 @@
+Fitness Web-App
+Preface
+Fitness plays an important role in our lives. With the onset of several lifestyle diseases, it has
+become crucial to remain fit and constantly keep track of one’s health, eating habits and
+exercise.
+Towards that end, you are required to create a fitness tracking app with the necessary
+functionalities.
+Task Objective
+Design the front end for a fitness tracking and web-app which promotes healthy habits, including
+metrics you are using to track the user's health as well as features promoting healthy habits -
+● A calorie tracker(based on the meals input by the user)
+● Steps walked per day and a visual representation of weekly step count
+● A selection of exercises along with required instructions(textual or visual)
+● Home page includes user’s personal fitness goals and their progress
+Brownie Points Task
+● In-built timer for exercises
+● Setting up a community feature
+● a health-based news feed
+● An attractive congratulations message when daily goals are met
